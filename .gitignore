@@ -45,3 +45,7 @@ yarn-debug.log*
 /.browserslistrc
 
 /test
+
+/.framgia-ci-reports/
+/.framgia-ci-result.temp.yml
+
