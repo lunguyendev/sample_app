@@ -1,0 +1,18 @@
+<header class ="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <div class="row">
+      <%= link_to t("layouts._header.content_link"), "#", id: "logo" %>
+      <nav>
+        <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to t("layouts._header.home"), "#" %></li>
+        <li><%= link_to t("layouts._header.help"), "#" %></li>
+        <li><%= link_to t("layouts._header.login"), "#" %></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="translate">
+    <%= link_to t("layouts._header.vi"), locale: :vi %> 
+    <%= link_to t("layouts._header.en"), locale: :en %>
+  </div>
+</header>

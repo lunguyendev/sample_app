@@ -1,2 +1,29 @@
 vi:
-  hello: "Xin chào thế giới"
+  layouts:
+    _header:
+      home: "Trang Chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+      content_link: "Ứng dụng mẫu"
+      vi: "Tiếng Việt |"
+      en: "Tiếng Anh"
+  static_pages:
+    home:
+      title_home: "Trang Chủ"
+      base_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+      title: "Chào mừng bạn đến với ứng dụng mẫu"
+      description: "Đây là trang chủ của"
+      description2: "ứng dụng mẫu"
+      signup: "Đăng ký ngay!"
+      content_link: "Hướng dẫn sử dụng Ruby on Rails"
+      content_link2: "Hướng dẫn sử dụng Ruby on Rails"
+    help:
+      title_home: "Trợ giúp"
+      base_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+      title: "Trợ giúp"
+      description1: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+      description2: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
+      description3: 
+      signup: "Đăng ký ngay!"
+      content_link1: "Trang trợ giúp Hướng dẫn về Rails"
+      content_link2: "Sách hướng dẫn sử dụng <em>Ruby on Rails</em>"
