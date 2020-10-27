@@ -1,2 +1,27 @@
 en:
-  hello: "Hello world"
+  layouts:
+    _header:
+      home: "Home"
+      help: "Help"
+      login: "Log in"
+      content_link: "Sample app"
+      vi: "Vietnamese |"
+      en: "English"
+  static_pages:
+    home:
+      title_home: "Home"
+      base_title: "Ruby on Rails Tutorial Sample App"
+      title: "Welcome to the Sample App"
+      description: "This is the home page for the"
+      description2: "sample application"
+      signup: "Sign up now!"
+      content_link: "Ruby on Rails Tutorial"
+      content_link2: "Ruby on Rails Tutorial"
+    help:
+      title_home: "Help"
+      base_title: "Ruby on Rails Tutorial Sample App"
+      title: "Help"
+      description1: "Get help on the Ruby on Rails Tutorial at the"
+      description2: "To get help on this sample app, see the"
+      content_link1: "Rails Tutorial help page"
+      content_link2: "<em>Ruby on Rails Tutorial</em> book"

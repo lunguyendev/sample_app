@@ -1,0 +1,12 @@
+<% provide :title, t(".title_home") %>
+<% provide :title_base, t("static_pages.home.base_title") %>
+<div class="center jumbotron">
+<h1><%= t("static_pages.home.title") %></h1>
+<h2>
+    <%= t "stactic_page.home.description" %>
+    <%= link_to t("static_pages.home.content_link"),"http://www.railstutorial.org/" %> 
+    <%= t "static_pages.home.description2" %>
+</h2>
+<%= link_to t("static_pages.home.signup"), "#", class: "btn btn-lg btn-primary" %>
+</div>
+<%= link_to t("static_pages.home.content_link2"),"http://www.railstutorial.org/" %>
