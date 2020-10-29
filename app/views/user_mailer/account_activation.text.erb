@@ -1,0 +1,3 @@
+<%= t "email.activation_acc.greeting" %> <%= @user.name %>,
+<%= t "email.activation_acc.content" %>
+<%= edit_account_activation_url(@user.activation_token, email:@user.email) %>
