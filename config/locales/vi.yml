@@ -12,6 +12,9 @@ vi:
     invalid_activated: "Liên kết kích hoạt không hợp lệ"
     check_email: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
     not_actived: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt."
+    expired: "Đặt lại mật khẩu đã hết hạn"
+    update_pass_succ: "Mật khẩu được cập nhật!"
+    input_blank: "không thể để trống"
   layouts:
     _header:
       home: "Trang Chủ"
@@ -56,6 +59,7 @@ vi:
     new_users: "Người dùng mới? "
     sign_up_now: "Đăng ký ngay!"
     remember_me: "Hãy nhớ tôi trên máy tính này"
+    forgot_pass: "Quên mật khẩu?"
   users:
     title:
       edit: "Chỉnh sửa người dùng"
@@ -79,3 +83,23 @@ vi:
       greeting: "Xin chào"
       subject: "Kích hoạt tài khoản"
       content: "Chào mừng bạn đến với Ứng dụng Mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
+    password:
+      title: "Ứng dụng mẫu"
+      greeting: "Xin chào"
+      sendmail_succ: "Email được gửi kèm theo hướng dẫn đặt lại mật khẩu"
+      sendmail_fail: "Không tìm thấy địa chỉ email"
+      subject: "Đặt lại mật khẩu"
+      content1: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:"
+      content2: "Liên kết này sẽ hết hạn sau hai giờ.
+                Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
+  forget_pass:
+    title: "Quên mật khẩu"
+    base_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+    email: "Email"
+    submit: "Gửi đi"
+  reset_pass:
+    title: "Đặt lại mật khẩu"
+    base_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+    password: "Mật khẩu"
+    confirmation: "Xác nhận"
+    submit: "Cập nhật mật khẩu"

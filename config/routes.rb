@@ -6,12 +6,14 @@ Rails.application.routes.draw do
 
   get "/signup", to: "users#new"
   post "/signup", to: "users#create"
-  resources :users, except: [:delete]
+  resources :users, except: :delete
 
   get "/login", to: "sessions#new"
   post "/login", to: "sessions#create"
   delete "/logout", to: "sessions#destroy"
-  resources :sessions, only: [:new, :show, :create]
+  resources :sessions, only: %i(new show create)
 
-  resources :account_activations, only: [:edit]
+  resources :account_activations, only: :edit
+
+  resources :password_resets, only: %i(new create edit update)
 end

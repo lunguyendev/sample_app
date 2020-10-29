@@ -12,6 +12,9 @@ en:
     invalid_activated: "Invalid activation link"
     check_email: "Please check your email to activate your account."
     not_actived: "Account not activated. Check your email for the activation link."
+    expired: "Password reset has expired"
+    update_pass_succ: "Password updated!"
+    input_blank: "can't be empty"
   layouts:
     _header:
       home: "Home"
@@ -56,6 +59,7 @@ en:
     new_users: "New user? "
     sign_up_now: "Sign up now!"
     remember_me: "Remember me on this computer"
+    forgot_pass: "Forgot password?"
   users:
     title:
       edit: "Edit user"
@@ -79,3 +83,23 @@ en:
       greeting: "Hello"
       subject: "Account activation"
       content: "Welcome to the Sample App! Click on the link below to activate your account:"
+    password:
+      title: "Simple App"
+      greeting: "Hello"
+      sendmail_succ: "Email sent with password reset instructions"
+      sendmail_fail: "Email address not found"
+      subject: "Password reset"
+      content1: "To reset your password click the link below:"
+      content2: "This link will expire in two hours.
+                If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+  forget_pass:
+    title: "Forgot password"
+    base_title: "Ruby on Rails Tutorial Sample App"
+    email: "Email"
+    submit: "Submit"
+  reset_pass:
+    title: "Reset password"
+    base_title: "Ruby on Rails Tutorial Sample App"
+    password: "Password"
+    confirmation: "Confirmation"
+    submit: "Update password"
