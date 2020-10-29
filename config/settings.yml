@@ -9,6 +9,7 @@ avt:
   resize_limit_width: 500
   resize_limit_height: 500
   size_img: 5
+  size_follow: 30
 page:
   per_page: 10
 micropost:
