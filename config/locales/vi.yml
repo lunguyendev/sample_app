@@ -1,4 +1,7 @@
 vi:
+  message:
+    sign_up_success: "Đăng ký thành công ! Chào mừng bạn đến với ứng dụng mẫu"
+    show_user_warning: "Không tìm thấy người dùng"
   layouts:
     _header:
       home: "Trang Chủ"
@@ -23,7 +26,18 @@ vi:
       title: "Trợ giúp"
       description1: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
       description2: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
-      description3: 
       signup: "Đăng ký ngay!"
       content_link1: "Trang trợ giúp Hướng dẫn về Rails"
       content_link2: "Sách hướng dẫn sử dụng <em>Ruby on Rails</em>"
+  sign_up:
+    error:
+      one: "Biểu mẫu chứa %{count} lỗi"
+      other: "Biểu mẫu chứa %{count} lỗi"
+    title: "Đăng ký"
+    base_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+    form:
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận"
+      submit: "Tạo tài khoản"

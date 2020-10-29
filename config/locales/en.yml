@@ -1,4 +1,7 @@
 en:
+  message:
+    sign_up_success: "Sign Up Success ! Welcome to the sample application"
+    show_user_warning: "User not found"
   layouts:
     _header:
       home: "Home"
@@ -25,3 +28,15 @@ en:
       description2: "To get help on this sample app, see the"
       content_link1: "Rails Tutorial help page"
       content_link2: "<em>Ruby on Rails Tutorial</em> book"
+  sign_up:
+    error:
+      one: "The form contains %{count} error"
+      other: "The form contains %{count} errors"
+    title: "Sign up"
+    base_title: "Ruby on Rails Tutorial Sample App"
+    form:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Confirmation"
+      submit: "Create account"
