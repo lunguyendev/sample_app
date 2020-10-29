@@ -1,0 +1,5 @@
+<li>
+  <%= gravatar_for user, size: Settings.avt.size %>
+  <%= link_to user.name, user %>
+  <%= check_admin user %>
+</li>

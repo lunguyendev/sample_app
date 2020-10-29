@@ -1,8 +1,13 @@
 en:
   message:
     sign_up_success: "Sign Up Success ! Welcome to the sample application"
-    show_user_warning: "User not found"
-    login_fail: "Invalid email password combination"
+    show_user_warning: "User not found!"
+    login_fail: "Invalid email password combination!"
+    update_profile_success: "Profile updated!"
+    pls_login: "Please log in!"
+    user_delete: "User deleted!"
+    user_delete_fail: "User deletion failed!"
+    confirm_detele: "You sure"
   layouts:
     _header:
       home: "Home"
@@ -34,18 +39,10 @@ en:
       description2: "To get help on this sample app, see the"
       content_link1: "Rails Tutorial help page"
       content_link2: "<em>Ruby on Rails Tutorial</em> book"
-  sign_up:
+  shared:
     error:
       one: "The form contains %{count} error"
       other: "The form contains %{count} errors"
-    title: "Sign up"
-    base_title: "Ruby on Rails Tutorial Sample App"
-    form:
-      name: "Name"
-      email: "Email"
-      password: "Password"
-      confirmation: "Confirmation"
-      submit: "Create account"
   login:
     title: "Login"
     base_title: "Ruby on Rails Tutorial Sample App"
@@ -54,3 +51,20 @@ en:
     new_users: "New user? "
     sign_up_now: "Sign up now!"
     remember_me: "Remember me on this computer"
+  users:
+    title:
+      edit: "Edit user"
+      new: "Sign up"
+    base_title: "Ruby on Rails Tutorial Sample App"
+    main_title: "Update your profile"
+    name: "Name"
+    email: "Email"
+    password: "Password"
+    confirmation: "Confirmation"
+    submit:
+      edit: "Save changes"
+      new: "Create account"
+    change: Change
+    index:
+        title: "All Users"
+    delete: "| Delete"

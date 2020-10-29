@@ -2,3 +2,8 @@ model_user:
   maximum_name: 50
   maximum_email: 255
   minimum_password: 6
+avt:
+  default_size: 80
+  size: 50
+page:
+  per_page: 10
