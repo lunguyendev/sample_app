@@ -2,6 +2,7 @@ vi:
   message:
     sign_up_success: "Đăng ký thành công ! Chào mừng bạn đến với ứng dụng mẫu"
     show_user_warning: "Không tìm thấy người dùng"
+    login_fail: "Email mật khẩu không đúng"
   layouts:
     _header:
       home: "Trang Chủ"
@@ -10,6 +11,11 @@ vi:
       content_link: "Ứng dụng mẫu"
       vi: "Tiếng Việt |"
       en: "Tiếng Anh"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      setting: "Cài đặt"
+      logout: "Đăng xuất"
+      user: "Người dùng"
   static_pages:
     home:
       title_home: "Trang Chủ"
@@ -41,3 +47,10 @@ vi:
       password: "Mật khẩu"
       confirmation: "Xác nhận"
       submit: "Tạo tài khoản"
+  login:
+    title: "Đăng nhập"
+    base_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+    email: "Email"
+    password: "Mật khẩu"
+    new_users: "Người dùng mới? "
+    sign_up_now: "Đăng ký ngay!"

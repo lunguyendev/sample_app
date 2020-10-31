@@ -2,6 +2,7 @@ en:
   message:
     sign_up_success: "Sign Up Success ! Welcome to the sample application"
     show_user_warning: "User not found"
+    login_fail: "Invalid email password combination"
   layouts:
     _header:
       home: "Home"
@@ -10,6 +11,11 @@ en:
       content_link: "Sample app"
       vi: "Vietnamese |"
       en: "English"
+      account: "Account"
+      profile: "Profile"
+      setting: "Setting"
+      logout: "Log out"
+      user: "User"
   static_pages:
     home:
       title_home: "Home"
@@ -40,3 +46,10 @@ en:
       password: "Password"
       confirmation: "Confirmation"
       submit: "Create account"
+  login:
+    title: "Login"
+    base_title: "Ruby on Rails Tutorial Sample App"
+    email: "Email"
+    password: "Password"
+    new_users: "New user? "
+    sign_up_now: "Sign up now!"
