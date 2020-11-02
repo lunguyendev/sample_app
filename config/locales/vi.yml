@@ -1,8 +1,13 @@
 vi:
   message:
     sign_up_success: "Đăng ký thành công ! Chào mừng bạn đến với ứng dụng mẫu"
-    show_user_warning: "Không tìm thấy người dùng"
-    login_fail: "Email mật khẩu không đúng"
+    show_user_warning: "Không tìm thấy người dùng!"
+    login_fail: "Email mật khẩu không đúng!"
+    update_profile_success: "Hồ sơ cá nhân đã cập nhật!"
+    pls_login: "Vui lòng đăng nhập!"
+    user_delete: "Người dùng đã bị xóa!"
+    user_delete_fail: "Xóa người dùng không thành công!"
+    confirm_detele: "Bạn có chắc chắn xóa"
   layouts:
     _header:
       home: "Trang Chủ"
@@ -35,18 +40,10 @@ vi:
       signup: "Đăng ký ngay!"
       content_link1: "Trang trợ giúp Hướng dẫn về Rails"
       content_link2: "Sách hướng dẫn sử dụng <em>Ruby on Rails</em>"
-  sign_up:
+  shared:
     error:
       one: "Biểu mẫu chứa %{count} lỗi"
       other: "Biểu mẫu chứa %{count} lỗi"
-    title: "Đăng ký"
-    base_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
-    form:
-      name: "Tên"
-      email: "Email"
-      password: "Mật khẩu"
-      confirmation: "Xác nhận"
-      submit: "Tạo tài khoản"
   login:
     title: "Đăng nhập"
     base_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
@@ -55,3 +52,20 @@ vi:
     new_users: "Người dùng mới? "
     sign_up_now: "Đăng ký ngay!"
     remember_me: "Hãy nhớ tôi trên máy tính này"
+  users:
+    title:
+      edit: "Chỉnh sửa người dùng"
+      new: "Đăng ký"
+    base_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+    main_title: "Cập nhật hồ sơ của bạn"
+    name: "Tên"
+    email: "Email"
+    password: "Mật khẩu"
+    confirmation: "Xác nhận"
+    submit:
+      edit: "Lưu thay đổi"
+      new: "Tạo tài khoản"
+    change: "Thay đổi"
+    index:
+        title: "Tất cả người dùng"
+    delete: "| Xóa"

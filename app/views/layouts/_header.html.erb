@@ -7,7 +7,7 @@
         <li><%= link_to t("layouts._header.home"), root_path %></li>
         <li><%= link_to t("layouts._header.help"), help_path %></li>
         <% if logged_in? %>
-          <li><%= link_to t("layouts._header.user"), "#" %></li>
+          <li><%= link_to t("layouts._header.user"), users_path %></li>
           <li class="dropdown">
             <%= link_to "#", {class: "dropdown-toggle", data: {toggle: "dropdown"}} do %>
               <%= t "layouts._header.account" %>
@@ -15,7 +15,8 @@
             <% end %>
             <ul class="dropdown-menu">
               <li><%= link_to t("layouts._header.profile"), current_user %></li>
-              <li><%= link_to t("layouts._header.setting"), "#" %></li>
+              <li><%= link_to t("layouts._header.setting"), edit_user_path(current_user) %></li>
+
               <li class="divider"></li>
               <li> <%= link_to t("layouts._header.logout"), logout_path, method: :delete %></li>
             </ul>
