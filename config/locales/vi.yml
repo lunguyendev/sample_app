@@ -8,6 +8,10 @@ vi:
     user_delete: "Người dùng đã bị xóa!"
     user_delete_fail: "Xóa người dùng không thành công!"
     confirm_detele: "Bạn có chắc chắn xóa"
+    acc_activated: "Tài khoản đã được kích hoạt!"
+    invalid_activated: "Liên kết kích hoạt không hợp lệ"
+    check_email: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
+    not_actived: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt."
   layouts:
     _header:
       home: "Trang Chủ"
@@ -67,5 +71,11 @@ vi:
       new: "Tạo tài khoản"
     change: "Thay đổi"
     index:
-        title: "Tất cả người dùng"
+      title: "Tất cả người dùng"
     delete: "| Xóa"
+  email:
+    activation_acc:
+      title: "Ứng dụng mẫu"
+      greeting: "Xin chào"
+      subject: "Kích hoạt tài khoản"
+      content: "Chào mừng bạn đến với Ứng dụng Mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"

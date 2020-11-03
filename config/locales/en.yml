@@ -8,6 +8,10 @@ en:
     user_delete: "User deleted!"
     user_delete_fail: "User deletion failed!"
     confirm_detele: "You sure"
+    acc_activated: "Account activated!"
+    invalid_activated: "Invalid activation link"
+    check_email: "Please check your email to activate your account."
+    not_actived: "Account not activated. Check your email for the activation link."
   layouts:
     _header:
       home: "Home"
@@ -37,6 +41,7 @@ en:
       title: "Help"
       description1: "Get help on the Ruby on Rails Tutorial at the"
       description2: "To get help on this sample app, see the"
+      signup: "Register now!"
       content_link1: "Rails Tutorial help page"
       content_link2: "<em>Ruby on Rails Tutorial</em> book"
   shared:
@@ -66,5 +71,11 @@ en:
       new: "Create account"
     change: Change
     index:
-        title: "All Users"
+      title: "All Users"
     delete: "| Delete"
+  email:
+    activation_acc:
+      title: "Simple App"
+      greeting: "Hello"
+      subject: "Account activation"
+      content: "Welcome to the Sample App! Click on the link below to activate your account:"

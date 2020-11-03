@@ -7,7 +7,7 @@ module UsersHelper
   end
 
   def check_admin user
-    return unless !current_user.admin? && current_user?(user)
+    return unless current_user.admin? && !current_user?(user)
 
     link_to t("users.delete"), user, method: :delete,
       data: {confirm: t("message.confirm_detele")}
