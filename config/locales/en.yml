@@ -121,3 +121,7 @@ en:
       posted: "Posted"
       ago: "ago."
       no_post: "Don't find micropost"
+  folow:
+    following: "Following"
+    followers: "Followers"
+    unfollow: "Unfollow"

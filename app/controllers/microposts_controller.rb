@@ -33,10 +33,10 @@ class MicropostsController < ApplicationController
 
   def correct_user
     @micropost = current_user.microposts.find_by id: params[:id]
-    unless @micropost
-      flash[:waring] = t "micropost.mess.no_post"
-      redirect_to root_url
-    end
+    return if @micropost
+
+    flash[:waring] = t "micropost.mess.no_post"
+    redirect_to root_surl
   end
 
   def handle_save_post

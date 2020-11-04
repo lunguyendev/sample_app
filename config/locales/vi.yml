@@ -121,3 +121,7 @@ vi:
       posted: "Được đăng"
       ago: "trước."
       no_post: "Không tìm thấy bài viết"
+  folow:
+    following: "Đang theo dõi"
+    followers: "Người theo dõi"
+    unfollow: "Bỏ theo dõi"
