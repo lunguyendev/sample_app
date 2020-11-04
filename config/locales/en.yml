@@ -15,6 +15,9 @@ en:
     expired: "Password reset has expired"
     update_pass_succ: "Password updated!"
     input_blank: "can't be empty"
+    size_img: "should be less than 5MB"
+    type_img: "must be a valid image format"
+    notife_size: "Maximum file size is 5MB. Please choose a smaller file"
   layouts:
     _header:
       home: "Home"
@@ -103,3 +106,18 @@ en:
     password: "Password"
     confirmation: "Confirmation"
     submit: "Update password"
+  micropost:
+    mess:
+      create_succ: "Micropost created!"
+      delete_succ: "Micropost deleted!"
+      delete_fail: "Fail micropost deleted!"
+      delete: "Delete"
+      confirm_detele: "You sure?"
+      placeholder: "Compose new micropost..."
+      submit: "Post"
+      profile: "View my profile"
+      micropost: "micropost"
+      title: "Micropost Feed"
+      posted: "Posted"
+      ago: "ago."
+      no_post: "Don't find micropost"
