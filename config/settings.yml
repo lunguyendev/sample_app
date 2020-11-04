@@ -6,5 +6,14 @@ model_user:
 avt:
   default_size: 80
   size: 50
+  resize_limit_width: 500
+  resize_limit_height: 500
+  size_img: 5
+  size_follow: 30
 page:
   per_page: 10
+micropost:
+  maximum: 140
+img:
+  accept: "image/jpeg,image/gif,image/png"
+  size_img: 5

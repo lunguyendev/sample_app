@@ -15,6 +15,9 @@ vi:
     expired: "Đặt lại mật khẩu đã hết hạn"
     update_pass_succ: "Mật khẩu được cập nhật!"
     input_blank: "không thể để trống"
+    size_img: "phải nhỏ hơn 5MB"
+    type_img: "phải là một định dạng hình ảnh hợp lệ"
+    notife_size: "Kích thước tệp tối đa là 5MB. Vui lòng chọn tệp nhỏ hơn"
   layouts:
     _header:
       home: "Trang Chủ"
@@ -103,3 +106,22 @@ vi:
     password: "Mật khẩu"
     confirmation: "Xác nhận"
     submit: "Cập nhật mật khẩu"
+  micropost:
+    mess:
+      create_succ: "Tạo bài viết thành công!"
+      delete_succ: "Đã xoá bài viết!"
+      delete_fail: "Không xóa được bài viết!"
+      delete: "Xóa"
+      confirm_detele: "Bạn có chắc chắn xóa?"
+      placeholder: "Soạn micropost mới ..."
+      submit: "Đăng bài"
+      profile: "Xem hồ sơ của tôi"
+      micropost: "bài viết"
+      title: "Nguồn cấp dữ liệu vi mô"
+      posted: "Được đăng"
+      ago: "trước."
+      no_post: "Không tìm thấy bài viết"
+  folow:
+    following: "Đang theo dõi"
+    followers: "Người theo dõi"
+    unfollow: "Bỏ theo dõi"
