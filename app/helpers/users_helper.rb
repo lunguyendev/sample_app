@@ -12,4 +12,8 @@ module UsersHelper
     link_to t("users.delete"), user, method: :delete,
       data: {confirm: t("message.confirm_detele")}
   end
+
+  def find_relationships_current_user
+    current_user.active_relationships.find_by(followed_id: @user.id)
+  end
 end

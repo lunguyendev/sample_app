@@ -18,6 +18,8 @@ en:
     size_img: "should be less than 5MB"
     type_img: "must be a valid image format"
     notife_size: "Maximum file size is 5MB. Please choose a smaller file"
+    find_user_fail: "The user was not found"
+    find_relationship_fail: "Relationship not found"
   layouts:
     _header:
       home: "Home"
@@ -121,3 +123,7 @@ en:
       posted: "Posted"
       ago: "ago."
       no_post: "Don't find micropost"
+  folow:
+    following: "Following"
+    followers: "Followers"
+    unfollow: "Unfollow"

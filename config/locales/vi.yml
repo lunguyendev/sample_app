@@ -18,6 +18,8 @@ vi:
     size_img: "phải nhỏ hơn 5MB"
     type_img: "phải là một định dạng hình ảnh hợp lệ"
     notife_size: "Kích thước tệp tối đa là 5MB. Vui lòng chọn tệp nhỏ hơn"
+    find_user_fail: "Không tìm thấy người dùng"
+    find_relationship_fail: "Không tìm thấy mối quan hệ"
   layouts:
     _header:
       home: "Trang Chủ"
@@ -121,3 +123,7 @@ vi:
       posted: "Được đăng"
       ago: "trước."
       no_post: "Không tìm thấy bài viết"
+  folow:
+    following: "Đang theo dõi"
+    followers: "Người theo dõi"
+    unfollow: "Bỏ theo dõi"
