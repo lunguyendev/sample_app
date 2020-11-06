@@ -17,3 +17,6 @@ micropost:
 img:
   accept: "image/jpeg,image/gif,image/png"
   size_img: 5
+email:
+  email: "thanhlongchat@gmail.com"
+  password: "0943374694"
